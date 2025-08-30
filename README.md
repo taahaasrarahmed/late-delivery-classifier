@@ -92,4 +92,36 @@ The **final RF model** was re-fit on the full training data with the best tuned 
 
 ---
 
-## 📎 Repository Structure  
+## ▶️ How to Run  
+
+### 1) Install dependencies  
+Run this **from the repo root** (the folder with `README.md` and `requirements.txt`):
+```bash
+pip install -r requirements.txt
+# or
+python -m pip install -r requirements.txt
+# Windows alternative
+py -m pip install -r requirements.txt
+```
+### 2) Download csv dataset
+pip install kaggle
+# Place kaggle.json in:
+#   Linux/Mac: ~/.kaggle/kaggle.json
+#   Windows:   %USERPROFILE%\.kaggle\kaggle.json
+kaggle datasets download -d olistbr/brazilian-ecommerce -p notebooks --unzip
+
+or
+
+Download csv files using the link: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+
+### 3) Place data files (inside notebooks/)
+olist_orders_dataset.csv
+olist_order_items_dataset.csv
+olist_products_dataset.csv
+olist_sellers_dataset.csv
+olist_customers_dataset.csv
+olist_order_reviews_dataset.csv
+olist_geolocation_dataset.csv
+
+### 4) Open the notebooks folder, run all cells in the pred_delivery notebook, ENJOY
+
