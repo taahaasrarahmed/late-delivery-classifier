@@ -20,8 +20,7 @@ The goal is to use **machine learning** to classify orders as **on-time** or **l
 - Source: [Olist Brazilian E-Commerce Public Dataset on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)  
 - Contains orders, customers, sellers, reviews, payments, and logistics data.  
 
-⚠️ Due to size limits, the full dataset is **not included** in this repo. Please download it directly from Kaggle.  
-A small sample (`data/sample_orders.csv`) may be provided to illustrate structure.  
+⚠️ Due to size limits, the full dataset is **not included** in this repo. Please download it directly from Kaggle.
 
 ---
 
