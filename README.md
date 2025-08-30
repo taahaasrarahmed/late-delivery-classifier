@@ -103,15 +103,7 @@ python -m pip install -r requirements.txt
 # Windows alternative
 py -m pip install -r requirements.txt
 ```
-### 2) Download csv dataset
-pip install kaggle
-Place kaggle.json in:
-Linux/Mac: ~/.kaggle/kaggle.json
-Windows:   %USERPROFILE%\.kaggle\kaggle.json
-kaggle datasets download -d olistbr/brazilian-ecommerce -p notebooks --unzip
-
-or
-
+### 2) Download CSV Dataset
 Download CSV Files using the link: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 ### 3) Place data files (inside notebooks/)
