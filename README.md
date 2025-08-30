@@ -45,9 +45,18 @@ Trained and evaluated multiple classifiers:
 - **XGBoost (baseline)**  
 - **Random Forest**  
 - **LightGBM**  
-- **CatBoost**  
+- **CatBoost**
 
 Evaluation metrics: Accuracy, F1-score, ROC AUC.  
+
+### 4. Model Selection: Cross-Validation & Hyperparameter Tuning
+To avoid overfitting and pick a robust model, I used **Stratified K-Fold cross-validation** and **hyperparameter tuning**:
+
+- **Cross-validation:** Stratified 5-fold on the training set (preserves class ratio for `is_late`).
+- **Search strategy:** Randomized/Grid Search (model-specific) over sensible ranges.
+- **Evaluated metric:** F1 on the positive class (late deliveries) with Accuracy and ROC-AUC tracked as secondaries.
+
+The **final RF model** was re-fit on the full training data with the best tuned hyperparameters and then evaluated.
 
 ---
 
