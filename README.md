@@ -116,5 +116,5 @@ olist_order_reviews_dataset.csv
 olist_geolocation_dataset.csv
 
 ### 4) Run
-Open the notebooks folder, run all cells in the pred_delivery notebook, ENJOY
+Open the notebooks folder & run all cells in the pred_delivery notebook.
 
